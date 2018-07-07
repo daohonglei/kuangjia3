@@ -1,0 +1,4 @@
+<root>
+	<bean id="user" class="com.action.UserAction"/>
+	<bean id="role" class="com.action.RoleAction"/>
+</root>
