@@ -10,7 +10,7 @@
 	<script src="source/js/main.js" type="text/javascript"></script>
 </head>
 <body>
-	<jsp:include page="../menu.jsp"></jsp:include>
+	<jsp:include page="../status.jsp"></jsp:include>
 	<p>tetssfsafafasf</p>
 	
 </body>

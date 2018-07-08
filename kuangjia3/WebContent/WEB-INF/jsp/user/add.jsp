@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:include page="../menu.jsp"></jsp:include>
+	<jsp:include page="../status.jsp"></jsp:include>
 	<h2>${name}</h2>
 	<form action="controller" method="post">
 		<input type="hidden" name="cls" value="user"/>

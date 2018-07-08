@@ -59,36 +59,40 @@
 
 </head>
 <body>
-	<jsp:include page="../menu.jsp"></jsp:include>
+	<%-- <jsp:include page="../status.jsp"></jsp:include> --%>
+	
 	<div class="container demo-2" id="home">
-	<header>
-	<nav class="cd-stretchy-nav">
-		<a class="cd-nav-trigger" href="#0">
-			<h6>Menu</h6>
-			<span aria-hidden="true"></span>
-		</a>
-
-		<ul class="side_nav">
-			<li><a href="index.html" class="active"><span>Home</span></a></li>
-			<li><a href="typography.html"><span>Services</span></a></li>
-			<li><a href="blog.html"><span>Blog</span></a></li>
-			<li><a href="gallery.html"><span>Gallery</span></a></li>
-			<li><a href="contact.html"><span>Contact</span></a></li>
-		</ul>
-
-		<span aria-hidden="true" class="stretchy-nav-bg"></span>
-	</nav>
-</header>
-	<!--#carbonads-container-->
-			<div class="content">
-                <div id="large-header" class="large-header">
-                    <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title"><a class="link link--takiri" href="index.html">Go Easy On<span class="wow fadeInUp animated animated" data-wow-delay=".5s">Where do you want to be?</span></a></h1>
-				
-                </div>
-
-            </div>
- </div>
+		<%-- <jsp:include page="menu.jsp"></jsp:include> --%>
+		<header>
+			<nav class="cd-stretchy-nav">
+				<a class="cd-nav-trigger" href="#0">
+					<h6>Menu</h6>
+					<span aria-hidden="true"></span>
+				</a>
+		
+				<ul class="side_nav">
+					<li><a href="controller?cls=role&method=index" class="active"><span>Home</span></a></li>
+					<li><a href="controller?cls=role&method=typography"><span>Services</span></a></li>
+					<li><a href="controller?cls=role&method=blog"><span>Blog</span></a></li>
+					<li><a href="controller?cls=role&method=gallery"><span>Gallery</span></a></li>
+					<li><a href="controller?cls=role&method=contact"><span>Contact</span></a></li>
+					<li></li>
+					<li><a href="controller?cls=role&method=contact"><span>Contact</span></a></li>
+					<li><a href="controller?cls=role&method=contact"><span>Contact</span></a></li>
+				</ul>
+		
+				<span aria-hidden="true" class="stretchy-nav-bg"></span>
+			</nav>
+		</header>
+		<!-- #carbonads-container-->
+		<div class="content">
+	         <div id="large-header" class="large-header">
+	             <canvas id="demo-canvas"></canvas>
+	             <h1 class="main-title"><a class="link link--takiri" href="controller?cls=role&method=index">Go Easy On<span class="wow fadeInUp animated animated" data-wow-delay=".5s">Where do you want to be?</span></a></h1>
+	
+	         </div>
+		 </div>
+ 	</div> 
 	<!--start-inner-content-->
 		<div class="inner-content" id="services">
 				<div class="wrap">
@@ -661,7 +665,7 @@
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
-<jsp:include page="../foot.jsp"></jsp:include>
+<%-- <jsp:include page="../foot.jsp"></jsp:include> --%>
 
 </body>
 </html>

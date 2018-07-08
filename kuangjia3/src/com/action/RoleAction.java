@@ -18,8 +18,24 @@ public class RoleAction {
 		return "role/test2";
 		
 	}
-	public String test3(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
-		return "role/test3";
+	public String index(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
+		return "role/index";
+		
+	}
+	public String typography(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
+		return "role/typography";
+		
+	}
+	public String blog(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
+		return "role/blog";
+		
+	}
+	public String gallery(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
+		return "role/gallery";
+		
+	}
+	public String contact(HttpServletRequest  httpServletRequest,HttpServletResponse httpServletResponse) throws InstantiationException, IllegalAccessException, SQLException, InterruptedException {	
+		return "role/contact";
 		
 	}
 }
